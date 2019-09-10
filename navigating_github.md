@@ -1,5 +1,19 @@
-STAT545-home https://stat545.stat.ubc.ca
-STAT545-home on github https://github.com/STAT545-UBC/STAT545-home
+# Helpful Links
+
+__STAT545 home page__
+[STAT 545 Home](https://stat545.stat.ubc.ca)
+
+STAT545-home on github 
+[](https://github.com/STAT545-UBC/STAT545-home)
+
 STAT545-UBC as the account holder and it is a user account
-My participation repo is at https://github.com/carleenaortega/STAT545-participation
-My homepage is at https://github.com/carleenaortega/
+
+The _Organization_ account:
+[](https://github.com/STAT545-UBC)
+
+My participation repo is at 
+[Personal Home Page](https://github.com/carleenaortega/STAT545-participation)
+
+My homepage is at 
+https://github.com/carleenaortega/
+
