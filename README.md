@@ -22,9 +22,11 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 Class Meeting 6 Intro to data wrangling, Part I
 Complete cm006-dplyr_exercise.Rmd worksheet. Instructor version can be found here
 Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
+
 Class Meeting 7 Intro to data wrangling, Part II
 Complete cm007-exercise.Rmd worksheet. Instructor version can be found here
 Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
+
 Class Meeting 8 Intro to plotting with ggplot2, Part II
 Complete cm008-exercise.Rmd worksheet. Instructor version can be found here
 Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
