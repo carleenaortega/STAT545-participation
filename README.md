@@ -5,8 +5,8 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 
 |Class| Participation Link| 
 | ----------- | ----------- |
-|1 Introduction to STAT 545 and GitHub|[Navigating Github .html](https://carleenaortega.github.io/STAT545-participation/navigating_github.html)|
-|2 Introduction to R|[Exploring R](https://carleenaortega.github.io/STAT545-participation/Lec2RExploration.R)|
+|1 Introduction to STAT 545 and GitHub|[Navigating Github](https://carleenaortega.github.io/STAT545-participation/Lec 1/navigating_github.html)|
+|2 Introduction to R|[Exploring R](https://carleenaortega.github.io/STAT545-participation/Lec 2/Lec2RExploration.html)|
 |3 Authoring|[3](https://carleenaortega.github.io/STAT545-participation/)|
 |4 The version control workflow |-|
 
