@@ -7,11 +7,9 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 |----------- | ----------- | ----------- |
 |:heavy_check_mark:|1 Introduction to STAT 545 and GitHub|[Navigating Github](https://carleenaortega.github.io/STAT545-participation/Lec1/navigating_github.html)|
 |:heavy_check_mark:|2 Introduction to R|[Exploring R](https://carleenaortega.github.io/STAT545-participation/Lec2/Lec2RExploration.html)|
-||3 Authoring| [Navigating Github Markdown Features](https://carleenaortega.github.io/STAT545-participation/Lec3/navigating_github.html) 
-[R Markdown Exploration](https://carleenaortega.github.io/STAT545-participation/Lec3/R-Markdown-Exploration.html) 
-[R Markdown Exploration Slides](https://carleenaortega.github.io/STAT545-participation/Lec3/R-Markdown-Exploration-Slides.html) |
+|:heavy_check_mark:|3 Authoring| [Navigating Github Markdown Features](https://carleenaortega.github.io/STAT545-participation/Lec3/navigating_github.html) [R Markdown Exploration](https://carleenaortega.github.io/STAT545-participation/Lec3/R-Markdown-Exploration.html) [R Markdown Exploration Slides](https://carleenaortega.github.io/STAT545-participation/Lec3/R-Markdown-Exploration-Slides.html) |
 |-|4 The version control workflow |-|
-||5 Intro to plotting with ggplot2, Part I| [ggplot2](https://carleenaortega.github.io/STAT545-participation/Lec5/cm005-ggplot_intro.html)|
+||5 Intro to plotting with ggplot2, Part I| [ggplot2](https://carleenaortega.github.io/STAT545-participation/Lec5/cm005-exercise_filled.html)|
 ||6 Intro to data wrangling, Part I| [Data Wrangling](https://carleenaortega.github.io/STAT545-participation/Lec6/)|
 |:heavy_check_mark:|7 Intro to data wrangling, Part II | [7](https://carleenaortega.github.io/STAT545-participation/Lec7/cm007-exercise_filled.html)|
 ||8 Intro to plotting with ggplot2, Part II| [5](https://carleenaortega.github.io/STAT545-participation/)|
