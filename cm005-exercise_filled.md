@@ -85,7 +85,7 @@ Execute this code to store the data in `mauna`:
 ##  8 1959 Aug  315.
 ##  9 1959 Sep  314.
 ## 10 1959 Oct  313.
-## # ... with 458 more rows
+## # … with 458 more rows
 ```
 
 ### 2(a)
@@ -106,8 +106,9 @@ Fill in the blanks to obtain the plot:
 
 
 ```r
-ggplot(mauna, aes("month","conc")) +
-  geom_line()
+ggplot(mauna, aes(month,conc)) +
+  geom_line() +
+  scale_linetype()
 ```
 
 <img src="cm005-exercise_filled_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
@@ -123,15 +124,9 @@ The following code mistakenly puts the month variable on the y-axis. Fill in the
 
 
 ```r
-ggplot(mauna, aes(y = month)) +
-  geom_point(aes(FILL_THIS_IN))
+p<- ggplot(mauna, aes(y = month)) +
+  geom_point(aes(month,conc))
 ```
-
-```
-## Error in FUN(X[[i]], ...): object 'FILL_THIS_IN' not found
-```
-
-<img src="cm005-exercise_filled_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 ### 2(c)
 
@@ -140,12 +135,10 @@ You can store the output of the plot in a variable, too. Store the plot from 2(a
 
 ```r
 p +
-  FILL_THIS_IN(colour = FILL_THIS_IN)
+  aes(palette='blues')
 ```
 
-```
-## Error in eval(expr, envir, enclos): object 'p' not found
-```
+<img src="cm005-exercise_filled_files/figure-html/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
 
 ### 2(d)
 
@@ -154,11 +147,15 @@ What's wrong with the following code? Fix it.
 
 ```r
 ggplot(gapminder) +
-  geom_point(x = gdpPercap, y = lifeExp, alpha = 0.1)
+  geom_point(x = gdpPercap, y = lifeExp, alpha = 0.1, color= 2) +
+  
 ```
 
 ```
-## Error in layer(data = data, mapping = mapping, stat = stat, geom = GeomPoint, : object 'gdpPercap' not found
+## Error: <text>:4:0: unexpected end of input
+## 2:   geom_point(x = gdpPercap, y = lifeExp, alpha = 0.1, color= 2) +
+## 3:   
+##   ^
 ```
 
 
@@ -173,10 +170,12 @@ The plot should look like a spiral, or concentric circles.
 
 
 ```r
-FILL_THIS_IN
+ggplot(mauna) +
+  aes(month,conc) +
+  coord_polar(mauna$conc)
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'FILL_THIS_IN' not found
+## Error in match.arg(theta, c("x", "y")): 'arg' must be NULL or a character vector
 ```
 
