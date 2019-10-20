@@ -18,6 +18,7 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 
 
 
+3 .md file for rmd exploration
 
 Class Meeting 3 Authoring
 Populate navigating_github.md document with some markdown features
