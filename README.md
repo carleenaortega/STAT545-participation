@@ -1,17 +1,17 @@
 # **WELCOME!**
 ## Overview
 
-This repository contains my submissions for **STAT 545A Participation** for Fall 2019 at UBC. You can check my participation files by clicking on their links which will direct you to their html versions (if applicable).
+This repository contains my submissions for **STAT 545A Participation** for Fall 2019 at UBC. You can check my participation files by clicking on their links which will direct you to their html versions. The other file formats (e.g. pdf, .md, .rmd) can be found in the participation folder for the respective classes.
 
 |Class| Participation Link| 
 | ----------- | ----------- |
 |1 Introduction to STAT 545 and GitHub|[Navigating Github](https://carleenaortega.github.io/STAT545-participation/Lec 1/navigating_github.html)|
 |2 Introduction to R|[Exploring R](https://carleenaortega.github.io/STAT545-participation/Lec 2/Lec2RExploration.html)|
-|3 Authoring|[3](https://carleenaortega.github.io/STAT545-participation/)|
+|3 Authoring|[3](https://carleenaortega.github.io/Lec 3/STAT545-participation/)|
 |4 The version control workflow |-|
+|5 Intro to plotting with ggplot2, Part I| [5](https://carleenaortega.github.io/STAT545-participation/Lec 5/cm005-ggplot_intro.html)|
 
-|5 Intro to plotting with ggplot2, Part I| [5](https://carleenaortega.github.io/STAT545-participation/)|
-|:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
+|6 Intro to data wrangling, Part I| [6](https://carleenaortega.github.io/STAT545-participation/Lec 6/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
@@ -24,10 +24,6 @@ Convert the .md file into both pdf and html and add them to your repo
 Upload rmd_exploration.Rmd and its output formats (**md**, pdf and html)
 Upload rmd_exploration-slides.Rmd both as Rmd and html(or pdf) formats
 
-
-Class Meeting 5 Intro to plotting with ggplot2, Part I
-Complete cm005-ggplot_intro.Rmd worksheet. Instructor version can be found here
-Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
 Class Meeting 6 Intro to data wrangling, Part I
 Complete cm006-dplyr_exercise.Rmd worksheet. Instructor version can be found here
 Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
