@@ -1,3 +1,4 @@
+# LEC 2: R EXPLORATION
 #first assignment is due on Sept 17
 #need to make a HW repository
 #R is one of the top 2 languages for data analysis
@@ -21,7 +22,7 @@ times
 times<-times*60
 
 #COMPARISONS
-#can use <, ==, !=, or | (or)
+#can use <, == (is equal to), != (is not equal to), or | (or)
 #value given is T/F
 
 times<20
@@ -38,6 +39,7 @@ times!=25
 times>20 & times<50
 
 which(times<30)
+any(times<30)
 
 times
 
@@ -56,6 +58,7 @@ times[c(2,4)] #gives the 2nd and 4th values; if w/o the [] then it will assume y
 times[times<30]
 
 #capping
+
 times[times>50]<-50 #makes values >50 become =50 and when you run times, it will not be reflected
 
 times
