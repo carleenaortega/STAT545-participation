@@ -11,8 +11,8 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 |-|4 The version control workflow |-|
 |:heavy_check_mark:|5 Intro to plotting with ggplot2, Part I| [ggplot2](https://carleenaortega.github.io/STAT545-participation/Lec5/cm005-exercise_filled.html)|
 ||6 Intro to data wrangling, Part I| [Data Wrangling](https://carleenaortega.github.io/STAT545-participation/Lec6/)|
-|:heavy_check_mark:|7 Intro to data wrangling, Part II | [7](https://carleenaortega.github.io/STAT545-participation/Lec7/cm007-exercise_filled.html)|
-||8 Intro to plotting with ggplot2, Part II| [5](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark:|7 Intro to data wrangling, Part II | [Data Wrangling II](https://carleenaortega.github.io/STAT545-participation/Lec7/cm007-exercise_filled.html)|
+||8 Intro to plotting with ggplot2, Part II| [5](https://carleenaortega.github.io/STAT545-participation/Lec8/cm008-exercise)filled.html|
 ||9 Tidy Data and Pivoting| [5](https://carleenaortega.github.io/STAT545-participation/)|
 ||10 Tibble Joins| [5](https://carleenaortega.github.io/STAT545-participation/)|
 ||11 File input/output (I/O)| [5](https://carleenaortega.github.io/STAT545-participation/)|
