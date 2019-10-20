@@ -3,7 +3,7 @@
 
 This repository contains my submissions for **STAT 545A Assignments** for Fall 2019 at UBC
 
-|Status| Participation | 
+|Status| Participation Link| 
 | ----------- | ----------- |
 |:heavy_check_mark:|[1](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-carleenaortega/HW1/Gapminder-Exploration.html) |
 |:heavy_check_mark:|[2](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-carleenaortega/HW2/HW2-Submission.html)|
