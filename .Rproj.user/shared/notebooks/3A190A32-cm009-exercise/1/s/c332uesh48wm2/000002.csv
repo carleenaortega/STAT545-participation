@@ -1,0 +1,5 @@
+"0","```r
+guest %>%  #use original table
+  group_by(party) %>% 
+  summarize(pending_wedding = all(\"attendance\" == \"PENDING\"))
+```"

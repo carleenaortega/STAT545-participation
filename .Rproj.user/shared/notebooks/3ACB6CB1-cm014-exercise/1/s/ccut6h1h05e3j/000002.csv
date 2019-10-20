@@ -1,0 +1,8 @@
+"0","```r
+gapminder_France2<-data.frame(year=seq(2000,2005))
+predict(my_lm, newdata=gapminder_France2) %>% 
+  head()
+```"
+"1","      1       2       3       4       5       6 
+79.2382 79.4767 79.7152 79.9537 80.1922 80.4307 
+"

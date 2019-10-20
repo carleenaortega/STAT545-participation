@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571557678717.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1389034949",
+    "id" : "BD66B215",
+    "lastKnownWriteTime" : 1571326542,
+    "last_content_update" : 1571326542,
+    "path" : "~/Documents/STAT 545A/Practice/STAT545-participation/Lec13/cm013.Rmd",
+    "project_path" : "Lec13/cm013.Rmd",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

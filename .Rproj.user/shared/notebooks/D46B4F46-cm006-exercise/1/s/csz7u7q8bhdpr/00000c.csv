@@ -1,0 +1,4 @@
+"0",""
+"0","rename(gapminder, continent<-""cont"")"
+"2","Error: All arguments must be named
+"

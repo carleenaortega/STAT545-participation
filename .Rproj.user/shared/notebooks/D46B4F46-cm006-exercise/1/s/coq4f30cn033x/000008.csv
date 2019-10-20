@@ -1,0 +1,2 @@
+"0","# alter the below to include 2 ""pipes"""
+"0","arrange(select(gapminder, year, lifeExp, country), year, lifeExp)"

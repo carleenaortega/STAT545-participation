@@ -1,0 +1,6 @@
+"0","```r
+n <- 100
+FILL_THIS_IN(label = FILL_THIS_IN,
+             FILL_THIS_IN = rnorm(n),
+             FILL_THIS_IN)
+```"

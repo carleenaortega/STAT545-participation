@@ -1,0 +1,4 @@
+"0","```r
+guest %>% 
+  DT::datatable(rownames = FALSE)
+```"

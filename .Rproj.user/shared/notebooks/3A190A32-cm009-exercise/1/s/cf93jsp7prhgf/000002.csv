@@ -1,0 +1,5 @@
+"0","```r
+guest_long %>%  #use the newer table made (why?)
+  group_by(party) %>% 
+  summarize(all_pending = all(\"attendance\" == \"PENDING\"))
+```"

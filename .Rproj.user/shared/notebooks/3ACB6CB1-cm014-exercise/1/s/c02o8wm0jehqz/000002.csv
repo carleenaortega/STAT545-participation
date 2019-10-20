@@ -1,0 +1,5 @@
+"0","```r
+ggplot(gapminder_Zimbabwe, aes(year,lifeExp)) + 
+  geom_point()+
+  geom_smooth(method = \"lm\", formula= y ~ poly(I(x-1952),degree=2))
+```"

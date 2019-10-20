@@ -1,0 +1,6 @@
+"0","```r
+(guest_long <- guest %>% 
+  pivot_longer(cols      = c(-party,-name), 
+               names_to  = c(\".value\",\"event\"), #separates the meal and event thats why result has \"event\" and \"meal\" as separate columns
+               names_sep=\"_\"))
+```"

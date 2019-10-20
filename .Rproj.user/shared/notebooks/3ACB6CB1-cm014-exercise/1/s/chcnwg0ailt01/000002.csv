@@ -1,0 +1,4 @@
+"0","```r
+lm_linear <- lm(data = gapminder,formula = FILL_THIS_IN)
+lm_poly <- lm(data = gapminder,formula = FILL_THIS_IN))
+```"

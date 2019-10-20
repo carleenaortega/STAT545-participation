@@ -1,0 +1,6 @@
+"0","```r
+lm_resid<-augment(my_lm)
+ggplot(lm_resid, aes(.resid))+ 
+  geom_freqpoly(binwidth=0.5)+
+  theme_bw()
+```"

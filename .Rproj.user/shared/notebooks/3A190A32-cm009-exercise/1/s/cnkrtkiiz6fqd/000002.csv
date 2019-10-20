@@ -1,0 +1,10 @@
+"0","```r
+experiment <- tibble(
+  name = rep(c(\"Alex\", \"Robert\", \"Sam\"), c(3, 2, 1)),
+  trt  = rep(c(\"a\", \"b\", \"a\"), c(3, 2, 1)),
+  rep = c(1, 2, 3, 1, 2, 1),
+  measurement_1 = runif(6),
+  measurement_2 = runif(6)
+)
+experiment %>% expand(name, trt, rep)
+```"

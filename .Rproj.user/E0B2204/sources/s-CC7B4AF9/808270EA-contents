@@ -1,0 +1,26 @@
+---
+title: "Tibble Exploration"
+output:
+  beamer_presentation: default
+  ioslides_presentation: default
+---
+
+```{r load,warning=FALSE,echo=FALSE}
+library(gapminder)
+library(tibble)
+library(DT)
+```
+
+## Print out gapminder data:
+
+```{r}
+gapminder
+```
+
+<!--this is a comment-->
+
+## Convert mtcars to a tibble, and wrap in datatable:
+
+```{r}
+datatable(as_tibble(mtcars))
+```

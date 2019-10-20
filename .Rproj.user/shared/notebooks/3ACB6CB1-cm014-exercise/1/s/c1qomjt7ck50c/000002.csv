@@ -1,0 +1,6 @@
+"0","```r
+library(tidyverse)
+ggplot(mtcars, aes(wt, mpg)) +
+  geom_point() +
+  labs(x = \"Weight (1000's of lbs)\")
+```"

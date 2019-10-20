@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571557257358.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3849400100",
+    "id" : "1D067148",
+    "lastKnownWriteTime" : 1570729614,
+    "last_content_update" : 1570729614,
+    "path" : "~/Documents/STAT 545A/Practice/STAT545-participation/Lec12/cm012-exercise.Rmd",
+    "project_path" : "Lec12/cm012-exercise.Rmd",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

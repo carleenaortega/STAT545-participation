@@ -1,0 +1,6 @@
+"0","```r
+(lotr_wide <- lotr %>% 
+  pivot_wider(id_cols = c(-Race, -Words), 
+              names_from = Race, 
+              values_from = Words))
+```"
