@@ -5,13 +5,13 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 
 |Class| Participation Link| 
 | ----------- | ----------- |
-|1 Introduction to STAT 545 and GitHub|[Navigating Github](https://carleenaortega.github.io/STAT545-participation/Lec 1/navigating_github.html)|
-|2 Introduction to R|[Exploring R](https://carleenaortega.github.io/STAT545-participation/Lec 2/Lec2RExploration.html)|
-|3 Authoring|[3](https://carleenaortega.github.io/Lec 3/STAT545-participation/)|
+|1 Introduction to STAT 545 and GitHub|[Navigating Github](https://carleenaortega.github.io/STAT545-participation/Lec1/navigating_github.html)|
+|2 Introduction to R|[Exploring R](https://carleenaortega.github.io/STAT545-participation/Lec2/Lec2RExploration.html)|
+|3 Authoring|[3](https://carleenaortega.github.io/Lec3/STAT545-participation/)|
 |4 The version control workflow |-|
-|5 Intro to plotting with ggplot2, Part I| [5](https://carleenaortega.github.io/STAT545-participation/Lec 5/cm005-ggplot_intro.html)|
+|5 Intro to plotting with ggplot2, Part I| [5](https://carleenaortega.github.io/STAT545-participation/Lec5/cm005-ggplot_intro.html)|
 
-|6 Intro to data wrangling, Part I| [6](https://carleenaortega.github.io/STAT545-participation/Lec 6/)|
+|6 Intro to data wrangling, Part I| [6](https://carleenaortega.github.io/STAT545-participation/Lec6/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
