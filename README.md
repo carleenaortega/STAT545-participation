@@ -6,10 +6,12 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 |Status| Participation Link| 
 | ----------- | ----------- |
 |:heavy_check_mark:|[Navigating Github .html](https://carleenaortega.github.io/STAT545-participation/navigating_github.html) &    [Navigating Github .md](https://carleenaortega.github.io/STAT545-participation/navigating_github.md) |
-|:heavy_check_mark:|[2](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-carleenaortega/HW2/HW2-Submission.html)|
-|:heavy_check_mark:|[3](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-carleenaortega/HW3/HW03.html)|
-|:heavy_check_mark: |[4](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-carleenaortega/HW4/HW4-vFinal.html)|
-|:heavy_check_mark: | [5](https://stat545-ubc-hw-2019-20.github.io/stat545-hw-carleenaortega/HW05/HW05.html)|
-
-
-
+|:heavy_check_mark:|[Exploring R](https://carleenaortega.github.io/STAT545-participation/STAT 545 Lec 2.R)|
+|:heavy_check_mark:|[3](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark: |[4](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
