@@ -8,25 +8,23 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 |1 Introduction to STAT 545 and GitHub|[Navigating Github .html](https://carleenaortega.github.io/STAT545-participation/navigating_github.html)|
 |2 Introduction to R|[Exploring R](https://carleenaortega.github.io/STAT545-participation/Lec2RExploration.R)|
 |3 Authoring|[3](https://carleenaortega.github.io/STAT545-participation/)|
-|:heavy_check_mark: |[4](https://carleenaortega.github.io/STAT545-participation/)|
-|:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
+|4 The version control workflow |-|
+
+|5 Intro to plotting with ggplot2, Part I| [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 |:heavy_check_mark: | [5](https://carleenaortega.github.io/STAT545-participation/)|
 
-
-
-3 .md file for rmd exploration
 
 Class Meeting 3 Authoring
 Populate navigating_github.md document with some markdown features
 Convert the .md file into both pdf and html and add them to your repo
-Upload rmd_exploration.Rmd and its output formats (md, pdf and html)
+Upload rmd_exploration.Rmd and its output formats (**md**, pdf and html)
 Upload rmd_exploration-slides.Rmd both as Rmd and html(or pdf) formats
-Class Meeting 4 The version control workflow
-nothing is required for submisison
+
+
 Class Meeting 5 Intro to plotting with ggplot2, Part I
 Complete cm005-ggplot_intro.Rmd worksheet. Instructor version can be found here
 Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
