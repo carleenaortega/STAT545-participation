@@ -12,13 +12,13 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 |:heavy_check_mark:|5 Intro to plotting with ggplot2, Part I| [ggplot2](https://carleenaortega.github.io/STAT545-participation/Lec5/cm005-exercise_filled.html)|
 ||6 Intro to data wrangling, Part I| [Data Wrangling](https://carleenaortega.github.io/STAT545-participation/Lec6/)|
 |:heavy_check_mark:|7 Intro to data wrangling, Part II | [Data Wrangling II](https://carleenaortega.github.io/STAT545-participation/Lec7/cm007-exercise_filled.html)|
-|y|8 Intro to plotting with ggplot2, Part II| [ggplot2 II](https://carleenaortega.github.io/STAT545-participation/Lec8/cm008-exercise_filled.html)|
-|y|9 Tidy Data and Pivoting| [Tidy and Pivot](https://carleenaortega.github.io/STAT545-participation/Lec9/cm009-exercise.html)|
+|:heavy_check_mark:|8 Intro to plotting with ggplot2, Part II| [ggplot2 II](https://carleenaortega.github.io/STAT545-participation/Lec8/cm008-exercise_filled.html)|
+|:heavy_check_mark:|9 Tidy Data and Pivoting| [Tidy and Pivot](https://carleenaortega.github.io/STAT545-participation/Lec9/cm009-exercise.html)|
 |y|10 Tibble Joins| [Tibble Joins](https://carleenaortega.github.io/STAT545-participation/Lec10/cm010-exercise.rmd)|
 |y|11 File input/output (I/O)| [File Input](https://carleenaortega.github.io/STAT545-participation/Lec11/Oct92019Participation.R)|
-|y|12 Working with factors in R| [Factors](https://carleenaortega.github.io/STAT545-participation/Lec12/cm012-exercise.html)|
-||13 Effective Visualizations| [Visualizations](https://carleenaortega.github.io/STAT545-participation/)|
-||14 The Model-Fitting Paradigm in R| [Model-Fitting](https://carleenaortega.github.io/STAT545-participation/)|
+|:heavy_check_mark:|12 Working with factors in R| [Factors](https://carleenaortega.github.io/STAT545-participation/Lec12/cm012-exercise.html)|
+||13 Effective Visualizations| [Visualizations](https://carleenaortega.github.io/STAT545-participation/Lec13/cm013.html)|
+||14 The Model-Fitting Paradigm in R| [Model-Fitting](https://carleenaortega.github.io/STAT545-participation/Lec14/cm014-exercise.html)|
 
 Class Meeting 6 Intro to data wrangling, Part I
 Complete cm006-dplyr_exercise.Rmd worksheet. Instructor version can be found here

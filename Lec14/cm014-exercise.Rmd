@@ -1,7 +1,10 @@
 ---
-title: "cm014 Worksheet: The Model-Fitting Paradigm in R"
-output: html_notebook
-editor_options: 
+title: 'cm014 Worksheet: The Model-Fitting Paradigm in R'
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+editor_options:
   chunk_output_type: inline
 ---
 
@@ -148,7 +151,7 @@ plot(my_lm)
 
 
 Or we can predict on a new dataset:
-```{r}
+#```{r}
 years1 = FILL_THIS_IN
 predict(my_lm,years1)
 ```
@@ -185,7 +188,7 @@ ggplot(gapminder_Zimbabwe, aes(year,lifeExp)) +
   geom_smooth(method = "lm", formula= y ~ poly(I(x-1952),degree=2))
 ```
 
-```{r}
+#```{r}
 lm_linear <- lm(data = gapminder,formula = FILL_THIS_IN)
 lm_poly <- lm(data = gapminder,formula = FILL_THIS_IN))
 ```

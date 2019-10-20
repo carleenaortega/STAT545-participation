@@ -6,7 +6,8 @@ output:
     theme: paper
 ---
 
-```{r}
+
+```r
 suppressPackageStartupMessages(library(tidyverse))
 library(gapminder)
 ```
@@ -36,13 +37,16 @@ Scale functions in `ggplot2` take the form `scale_[aesthetic]_[mapping]()`.
 
 Let's first focus on the following plot:
 
-```{r}
+
+```r
 p_scales <- ggplot(gapminder, aes(gdpPercap, lifeExp)) +
      geom_point(aes(colour=pop), alpha=0.2)
 p_scales + 
     scale_x_log10() +
     scale_colour_continuous(trans="log10")
 ```
+
+![](cm013supplemental_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
 
 1. Change the y-axis tick mark spacing to 10; change the colour spacing to include all powers of 10.
 
@@ -113,7 +117,8 @@ There are ["complete themes"](http://ggplot2.tidyverse.org/reference/ggtheme.htm
 
 1. Change the theme of the following plot to `theme_bw()`:
 
-```{r}
+
+```r
 ggplot(iris, aes(Sepal.Width, Sepal.Length)) +
      facet_wrap(~ Species) +
      geom_point() +
@@ -121,6 +126,8 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length)) +
           y = "Sepal Length",
           title = "Sepal sizes of three plant species")
 ```
+
+![](cm013supplemental_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 
 2. Then, change font size of axis labels, and the strip background colour. Others?
 
