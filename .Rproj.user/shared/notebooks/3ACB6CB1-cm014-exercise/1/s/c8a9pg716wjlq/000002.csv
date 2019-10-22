@@ -1,3 +1,0 @@
-"0","```r
-anova(lm_linear,lm_poly)
-```"

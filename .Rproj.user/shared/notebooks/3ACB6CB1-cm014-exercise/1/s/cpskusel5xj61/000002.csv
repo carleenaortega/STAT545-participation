@@ -1,3 +1,0 @@
-"0","```r
-(lm_cat <- lm(gdpPercap ~ I(year - 1952) + continent, data = gapminder))
-```"

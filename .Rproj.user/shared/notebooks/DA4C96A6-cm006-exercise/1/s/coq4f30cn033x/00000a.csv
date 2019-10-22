@@ -1,4 +1,0 @@
-"0",""
-"0","gapminder %>% "
-"0","  select(year, lifeExp, country) %>% "
-"0","  arrange( year, lifeExp)"

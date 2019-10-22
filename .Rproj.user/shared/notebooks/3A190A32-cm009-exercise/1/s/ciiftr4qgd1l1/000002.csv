@@ -1,6 +1,0 @@
-"0","```r
-lotr_wide %>% 
-  pivot_longer(cols = c(-Film, -Gender), 
-               names_to  = \"Race\", 
-               values_to = \"Words\")
-```"

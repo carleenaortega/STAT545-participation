@@ -1,7 +1,0 @@
-"0","```r
-guest_long %>% 
-  pivot_wider(id_cols     = c(party,name), 
-              names_from  = event, 
-              names_sep   = \"_\", 
-              values_from = c(meal,attendance))
-```"

@@ -1,6 +1,0 @@
-"0","```r
-ggplot(mtcars, aes(qsec, drat)) + 
-  geom_point() +
-  labs(x = \"Quarter mile time\",
-       y = \"Rear axle ratio\")
-```"

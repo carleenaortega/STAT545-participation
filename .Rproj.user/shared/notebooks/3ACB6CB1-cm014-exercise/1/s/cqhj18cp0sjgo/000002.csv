@@ -1,5 +1,0 @@
-"0","```r
-class(gapminder$continent)
-levels(gapminder$continent)
-contrasts(gapminder$continent)
-```"

@@ -1,3 +1,0 @@
-"0","```r
-ggplot(gapminder_Zimbabwe, aes(year,lifeExp)) + geom_point()+geom_smooth(method = \"lm\", se = F)
-```"

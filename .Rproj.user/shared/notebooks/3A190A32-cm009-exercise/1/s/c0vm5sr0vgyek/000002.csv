@@ -1,6 +1,0 @@
-"0","```r
-library(tidyverse)
-lotr  <- read_csv(\"https://raw.githubusercontent.com/jennybc/lotr-tidy/master/data/lotr_tidy.csv\")
-guest <- read_csv(\"https://raw.githubusercontent.com/STAT545-UBC/Classroom/master/data/wedding/attend.csv\")
-email <- read_csv(\"https://raw.githubusercontent.com/STAT545-UBC/Classroom/master/data/wedding/emails.csv\")
-```"

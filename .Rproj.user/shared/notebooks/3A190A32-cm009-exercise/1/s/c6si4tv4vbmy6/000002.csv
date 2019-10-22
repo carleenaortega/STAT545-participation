@@ -1,7 +1,0 @@
-"0","```r
-guest_long %>% 
-  separate(name, into = c(\"first\",\"last\")) %>%
-  unite(col = \"name\", first, last, sep =\" \")
-```"
-"1","Expected 2 pieces. Additional pieces discarded in 3 rows [58, 59, 60].
-"

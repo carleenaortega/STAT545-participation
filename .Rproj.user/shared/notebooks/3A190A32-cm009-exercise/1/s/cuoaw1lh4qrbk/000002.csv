@@ -1,4 +1,0 @@
-"0","```r
-email %>% 
-  separate_rows(guest, sep = \", \")
-```"

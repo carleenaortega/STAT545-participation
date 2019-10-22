@@ -1,5 +1,0 @@
-"0","```r
-gapminder_Zimbabwe <- gapminder %>% filter(country==\"Zimbabwe\")
-
-gapminder_Zimbabwe %>% ggplot(aes(year, lifeExp)) + geom_point()
-```"

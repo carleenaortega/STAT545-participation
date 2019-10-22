@@ -1,3 +1,0 @@
-"0","```r
-gapminder_France <- gapminder %>% filter(country==\"France\")
-```"

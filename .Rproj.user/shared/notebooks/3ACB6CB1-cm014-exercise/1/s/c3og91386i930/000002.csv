@@ -1,3 +1,0 @@
-"0","```r
-gapminder$continent <- relevel(gapminder$continent, ref = \"Oceania\")
-```"
