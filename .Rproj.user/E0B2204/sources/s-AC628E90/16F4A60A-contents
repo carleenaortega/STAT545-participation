@@ -34,13 +34,6 @@ gapminder %>%
 
 2. Calculate the growth in population since the first year on record (1952) _for each country_ by rearranging the following lines, and filling in the `FILL_THIS_IN`. Here's another convenience function for you: `dplyr::first()`. 
 
-```
-
-
-
-
-
-```
 
 ```{r}
 gapminder %>% 

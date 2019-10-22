@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3179122328",
     "id" : "16F4A60A",
-    "lastKnownWriteTime" : 1571723333,
-    "last_content_update" : 1571723333012,
+    "lastKnownWriteTime" : 1571723415,
+    "last_content_update" : 1571723415898,
     "path" : "~/Desktop/STAT545-participation/Lec7/cm007-exercise_filled.Rmd",
     "project_path" : "Lec7/cm007-exercise_filled.Rmd",
     "properties" : {
-        "cursorPosition" : "65,16",
-        "scrollLine" : "49"
+        "cursorPosition" : "35,0",
+        "scrollLine" : "32"
     },
     "read_only" : false,
     "read_only_alternatives" : [
