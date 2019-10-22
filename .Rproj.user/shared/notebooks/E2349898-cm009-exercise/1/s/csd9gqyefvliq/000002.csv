@@ -1,0 +1,6 @@
+"0","n <- 100"
+"0","tibble::as.tibble(label = ""Sample A"","
+"0","             x = rnorm(n),"
+"0","             y = (rnorm(n)+1))"
+"2","`as.tibble()` is deprecated, use `as_tibble()` (but mind the new semantics).
+[90mThis warning is displayed once per session.[39m"

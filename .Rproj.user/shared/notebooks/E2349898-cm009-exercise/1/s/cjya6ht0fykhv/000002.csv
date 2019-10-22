@@ -1,0 +1,8 @@
+"0","experiment <- tibble("
+"0","  name = rep(c(""Alex"", ""Robert"", ""Sam""), c(3, 2, 1)),"
+"0","  trt  = rep(c(""a"", ""b"", ""a""), c(3, 2, 1)),"
+"0","  rep = c(1, 2, 3, 1, 2, 1),"
+"0","  measurement_1 = runif(6),"
+"0","  measurement_2 = runif(6)"
+"0",")"
+"0","experiment %>% expand(name, trt, rep)"
