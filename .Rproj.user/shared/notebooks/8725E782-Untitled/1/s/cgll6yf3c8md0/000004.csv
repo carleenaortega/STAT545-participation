@@ -1,0 +1,3 @@
+"0","gapminder_csv <- read_csv('./gampinder_sum.csv') #on windows, it is .\gapminder_sum.csv"
+"2","Error: './gampinder_sum.csv' does not exist in current working directory ('/Users/carleenaortega/Desktop/STAT545-participation').
+"

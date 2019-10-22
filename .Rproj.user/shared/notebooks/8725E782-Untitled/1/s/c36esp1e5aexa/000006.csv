@@ -1,0 +1,3 @@
+"0","gapminder_sum <- gapminder %>% "
+"0","   group_by(continent) %>% "
+"0","  summarize(ave_lifeExp=mean(lifeExp))"

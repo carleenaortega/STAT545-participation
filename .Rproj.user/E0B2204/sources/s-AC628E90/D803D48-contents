@@ -1,0 +1,28 @@
+---
+title: "Lec 11 Recap"
+author: "Carleena Ortega"
+date: "10/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+suppressPackageStartupMessages(library("here"))
+```
+
+#recap during lec 12:
+
+ # read_csv() has friends  such as read_delim, read_tsv, etc.
+
+#
+
+
+# rmd and r files saving PW are different since rmd save into the deeper folders while r files save in the primary folder
+
+
+```{r}
+url <- "http://gattonweb.uky.edu/sheather/book/docs/datasets/magazines.csv"
+
+read_csv(url)
+```
+

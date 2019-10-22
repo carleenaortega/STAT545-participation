@@ -1,0 +1,163 @@
+---
+title: "Lec 11 Participation converted to RMD"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+Note: initially did the lecture in R since that's what Firas opened and then converted to rmd so TAs can have a better access, however the commands are not working properly.
+```{r allow errors, warning=FALSE}
+library("tidyverse")
+library("gapminder")
+```
+
+
+```{r}
+gapminder
+write_csv(gapminder,'./gapminder.csv')
+view(gapminder)
+```
+
+Calculate mean life Exp per continent
+
+```{r}
+gapminder_sum <- gapminder %>% 
+   group_by(continent) %>% 
+  summarize(ave_lifeExp=mean(lifeExp))
+```
+
+
+
+```{r}
+gapminder_sum %>% 
+  ggplot
+```
+
+
+Part II
+#```{r warning=FALSE}
+gapminder_csv <- read_csv("gampinder_sum.csv") #on windows, it is .\gapminder_sum.csv
+
+#```
+
+another way of using here is platform agnostic, dir-structure agnostic
+
+#```{r}
+read_csv(here::here("test","tes","te","t",gapminder_sum.csv))
+
+#```
+
+cannot run these examples from lecture
+
+couple more things about here
+set_here()
+
+```{r}
+view(gapminder)
+```
+
+in here:
+```{r}
+write_csv(gapminder_sum, here::here("gapminder_sum.csv"))
+ls()
+list=ls()
+remove(list=ls())
+```
+
+
+ls() #only removes the variables, the packages are still not detached
+
+```{r}
+library("tidyverse")
+library("here")
+```
+
+
+
+read Excel file
+
+Datafiles from this tutorial: https://beanumber.github.io/sds192
+
+
+```{r}
+data_url <- "http://gattonweb.uky.edu/sheather/book/docs/datasets/GreatestGivers.xls"
+```
+
+# read_csv can directly import URLs but read_excel requires you to download it first.
+
+
+#```{r warning= FALSE}
+read_csv(url)
+download.file(url=data_url, destfile = paste('./datasets/',file_name))
+#```
+
+CLS files may not work on windows
+ Task: change above to use the "here::here" package:
+
+
+```{r}
+download.file(url=data_url, destfile = here::here("test","greatestGiver.xls"))
+```
+
+#```{r}
+install.packages("readxl")
+library(readxl)
+philanthropists <-read_excel(here::here)
+#```
+
+
+```{r}
+xls_url <- "http://gattonweb.uky.edu/sheather/book/docs/datasets/GreatestGivers.xls"
+download.file(xls_url,here::here("data","cm011_data","some_file.xls"))
+```
+
+
+```{r}
+file_name <- basename(xls_url)
+download.file(xls_url,here::here("data","cm011_data",file_name))
+```
+
+
+
+#```{r}
+read_excel(here::here("data","cm011_data",file_name))
+#```
+
+
+#```{r}
+mri_file = here::here("data","cm011_data","Firas-MRI.xlsx")
+mri <- read_excel(mri_file, range = "A1:K12")
+#```
+
+
+#```{r}
+mri_file = here::here("data","cm011_data","Firas-MRI.xlsx")
+mri <- read_excel(mri_file, range = "A1:L12")
+#```
+
+
+#```{r}
+mri <- mri %>% 
+  tidyr::pivot_longer(cols = `Slice 1`:`Slice 8`,
+    names_to = 'slice_no',
+    values_to = 'value')
+mri
+#```
+
+assign the imported data to excel file:
+
+
+#```{r}
+view(philanthropists)
+```
+
+#```{r}
+head(philanthropists)
+```
+
+
+
+
+
+

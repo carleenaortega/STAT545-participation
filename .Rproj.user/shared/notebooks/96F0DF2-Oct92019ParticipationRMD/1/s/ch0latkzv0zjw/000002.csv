@@ -1,0 +1,4 @@
+"0","read_csv(here::here(""test"",""tes"",""te"",""t"",gapminder_sum.csv))"
+"2","Error in file.path(""/Users/carleenaortega/Desktop/STAT545-participation"",  : 
+  object 'gapminder_sum.csv' not found
+"

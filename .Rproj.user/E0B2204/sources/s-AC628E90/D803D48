@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571726229423.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "827735530",
+    "id" : "D803D48",
+    "lastKnownWriteTime" : 1570726254,
+    "last_content_update" : 1570726254,
+    "path" : "~/Documents/STAT 545A/STAT545-participation/Lec 11 recap.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

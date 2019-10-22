@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"download.file(url = data_url, destfile = here::here(\"test\", \"greatestGiver.xls\"))","line_number":0}],"message":"Error in download.file(url = data_url, destfile = here::here(\"test\", \"greatestGiver.xls\")) : \n  object 'data_url' not found\n"}

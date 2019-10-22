@@ -1,0 +1,2 @@
+library(usethis)
+use_git_config(user.name = "carleenaortega", user.email = "carleena.ortega@hli.ubc.ca")

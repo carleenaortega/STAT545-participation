@@ -1,0 +1,2 @@
+"0","write_csv(gapminder,'./gapminder.csv')"
+"0","view(gapminder)"
