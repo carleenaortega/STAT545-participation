@@ -187,34 +187,36 @@ ggplot(gapminder_Zimbabwe, aes(year,lifeExp)) +
   geom_point()+
   geom_smooth(method = "lm", formula= y ~ poly(I(x-1952),degree=2))
 ```
+_______lecture ends here_____
+
 
 #```{r}
 lm_linear <- lm(data = gapminder,formula = FILL_THIS_IN)
 lm_poly <- lm(data = gapminder,formula = FILL_THIS_IN))
 ```
 `anova` lets you compare between different models.
-```{r}
+#```{r allow errors, warning=FALSE}
 anova(lm_linear,lm_poly)
-```
+#```
 ## Regression with categorical variables
 
-```{r}
+#```{r}
 (lm_cat <- lm(gdpPercap ~ I(year - 1952) + continent, data = gapminder))
-```
+#```
 How did R know that continent was a categorical variable?
-```{r}
+#```{r}
 class(gapminder$continent)
 levels(gapminder$continent)
 contrasts(gapminder$continent)
-```
+#```
 How can we change the reference level?
-```{r}
+#```{r}
 gapminder$continent <- relevel(gapminder$continent, ref = "Oceania")
-```
+#```
 Let's build a new model
-```{r}
+#```{r}
 lm_cat2 <- lm(gdpPercap ~ I(year - 1952) + continent, data = gapminder)
-```
+#```
 
 
 ## Broom
