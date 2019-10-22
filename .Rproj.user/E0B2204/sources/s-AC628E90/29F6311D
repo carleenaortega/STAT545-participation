@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "29F6311D",
-    "lastKnownWriteTime" : 1571720790,
-    "last_content_update" : 1571720790365,
+    "lastKnownWriteTime" : 1571724768,
+    "last_content_update" : 1571724768997,
     "path" : "~/Desktop/STAT545-participation/Lec10/cm010-exercise.Rmd",
     "project_path" : "Lec10/cm010-exercise.Rmd",
     "properties" : {
-        "cursorPosition" : "34,56",
-        "scrollLine" : "26"
+        "cursorPosition" : "150,6",
+        "scrollLine" : "134"
     },
     "read_only" : false,
     "read_only_alternatives" : [

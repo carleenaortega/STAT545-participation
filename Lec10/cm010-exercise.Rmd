@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.width=4, fig.height=3, warning = FALSE, fig.align = "c
 
 <!---The following chunk allows errors when knitting--->
 
-```{r allow errors, echo = FALSE}
+```{r, echo = FALSE}
 knitr::opts_chunk$set(error = TRUE)
 ```
 
@@ -59,36 +59,36 @@ The package `singer` comes with two smallish data frames about songs. Let's take
 
 ```{r allow errors}
 time %>% 
-  filter(album=="time")
+  inner_join(album, by=song)
 ```
 
 2. Go ahead and add the corresponding albums to the `time` tibble, being sure to preserve rows even if album info is not readily available.
 
 ```{r}
 time %>% 
-  mutate(album, by = song)
+  full_join(album, by ="song")
 ```
 
 3. Which songs do we have "year", but not album info?
 
 ```{r}
 time %>% 
-  FILL_THIS_IN(album, by = "song")
+ left_join(album,by="year")
 ```
 
 4. Which artists are in `time`, but not in `album`?
 
 ```{r}
 time %>% 
-  anti_join(album, by = "FILL_THIS_IN")
+  anti_join(album, by = "artist_name")
 ```
 
 
 5. You've come across these two tibbles, and just wish all the info was available in one tibble. What would you do?
 
 ```{r}
-FILL_THIS_IN %>% 
-  FILL_THIS_IN(FILL_THIS_IN, by = "song")
+time %>% 
+  full_join(album, by = "song")
 ```
 
 
@@ -105,7 +105,7 @@ retk <- read_csv("https://raw.githubusercontent.com/jennybc/lotr-tidy/master/dat
 1. Combine these into a single tibble.
 
 ```{r}
-FILL_THIS_IN(fell, FILL_THIS_IN)
+full_join(fell, ttow, retk)
 ```
 
 2. Which races are present in "The Fellowship of the Ring" (`fell`), but not in any of the other ones?
@@ -113,7 +113,7 @@ FILL_THIS_IN(fell, FILL_THIS_IN)
 ```{r}
 fell %>% 
   anti_join(ttow, by = "Race") %>% 
-  FILL_THIS_IN(FILL_THIS_IN, by = "Race")
+  anti_join(retk, by = "Race")
 ```
 
 
@@ -133,13 +133,13 @@ Let's use three set functions: `intersect`, `union` and `setdiff`. We'll work wi
 1. Rows that appear in both `y` and `z`
 
 ```{r}
-FILL_THIS_IN(y, z)
+inner_join(y, z)
 ```
 
 2. You collected the data in `y` on Day 1, and `z` in Day 2. Make a data set to reflect that.
 
 ```{r}
-FILL_THIS_IN(
+full_join(
   mutate(y, day = "Day 1"),
   mutate(z, day = "Day 2")
 )
@@ -148,5 +148,6 @@ FILL_THIS_IN(
 3. The rows contained in `z` are bad! Remove those rows from `y`.
 
 ```{r}
-FILL_THIS_IN(FILL_THIS_IN, FILL_THIS_IN)
+y %>% 
+antijoin(z)
 ```

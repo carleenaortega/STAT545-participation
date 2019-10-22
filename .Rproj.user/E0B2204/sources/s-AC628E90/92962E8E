@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571723919914.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "92962E8E",
+    "lastKnownWriteTime" : 1571721391,
+    "last_content_update" : 1571721391,
+    "path" : "~/Desktop/STAT545-participation/Lec11/Oct92019Participation.R",
+    "project_path" : "Lec11/Oct92019Participation.R",
+    "properties" : {
+        "cursorPosition" : "2,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
