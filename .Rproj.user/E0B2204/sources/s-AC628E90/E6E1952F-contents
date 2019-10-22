@@ -21,10 +21,6 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 ||14 The Model-Fitting Paradigm in R| [Model-Fitting](https://carleenaortega.github.io/STAT545-participation/Lec14/cm014-exercise.html)|.rmd|
 
 
-Class Meeting 11 File input/output (I/O)
-Complete the steps described in lesson 11.
-Submit .R script with your work
-
 Class Meeting 14 The Model-Fitting Paradigm in R
 Complete cm014-exercise.Rmd worksheet. This worksheet is closely alligned with this tutorial
 Submit .Rmd file along with knitted version of your choice (pdf, md or html format)
