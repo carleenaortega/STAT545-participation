@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571720182463.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "29F6311D",
+    "lastKnownWriteTime" : 1571720790,
+    "last_content_update" : 1571720790365,
+    "path" : "~/Desktop/STAT545-participation/Lec10/cm010-exercise.Rmd",
+    "project_path" : "Lec10/cm010-exercise.Rmd",
+    "properties" : {
+        "cursorPosition" : "34,56",
+        "scrollLine" : "26"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
