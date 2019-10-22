@@ -10,7 +10,7 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 |:heavy_check_mark:|3 Authoring| [Navigating Github Markdown Features](https://carleenaortega.github.io/STAT545-participation/Lec3/navigating_github.html), [R Markdown Exploration](https://carleenaortega.github.io/STAT545-participation/Lec3/R-Markdown-Exploration.html),  [R Markdown Exploration Slides](https://carleenaortega.github.io/STAT545-participation/Lec3/R-Markdown-Exploration-Slides.html) |
 |-|4 The version control workflow |-|
 |:heavy_check_mark:|5 Intro to plotting with ggplot2, Part I| [ggplot2](https://carleenaortega.github.io/STAT545-participation/Lec5/cm005-exercise_filled.html)|
-||6 Intro to data wrangling, Part I| [Data Wrangling](https://carleenaortega.github.io/STAT545-participation/Lec6/)|
+|:heavy_check_mark:|6 Intro to data wrangling, Part I| [Data Wrangling](https://carleenaortega.github.io/STAT545-participation/Lec6/cm0060exercise.html)|
 |:heavy_check_mark:|7 Intro to data wrangling, Part II | [Data Wrangling II](https://carleenaortega.github.io/STAT545-participation/Lec7/cm007-exercise_filled.html)|
 |:heavy_check_mark:|8 Intro to plotting with ggplot2, Part II| [ggplot2 II](https://carleenaortega.github.io/STAT545-participation/Lec8/cm008-exercise_filled.html)|
 |:heavy_check_mark:|9 Tidy Data and Pivoting| [Tidy and Pivot](https://carleenaortega.github.io/STAT545-participation/Lec9/cm009-exercise.html)|

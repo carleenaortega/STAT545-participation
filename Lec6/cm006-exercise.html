@@ -480,16 +480,29 @@ select(gapminder, country:lifeExp)</code></pre>
 <ol start="4" style="list-style-type: decimal">
 <li>Put <code>continent</code> first. Hint: use the <code>everything()</code> function.</li>
 </ol>
-<pre class="r"><code>select(gapminder, FILL_THIS_IN, FILL_THIS_IN)</code></pre>
-<pre><code>## Error in .f(.x[[i]], ...): object 'FILL_THIS_IN' not found</code></pre>
+<pre class="r"><code>select(gapminder, continent, everything(gapminder))</code></pre>
+<pre><code>## # A tibble: 1,704 x 6
+##    continent country      year lifeExp      pop gdpPercap
+##    &lt;fct&gt;     &lt;fct&gt;       &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
+##  1 Asia      Afghanistan  1952    28.8  8425333      779.
+##  2 Asia      Afghanistan  1957    30.3  9240934      821.
+##  3 Asia      Afghanistan  1962    32.0 10267083      853.
+##  4 Asia      Afghanistan  1967    34.0 11537966      836.
+##  5 Asia      Afghanistan  1972    36.1 13079460      740.
+##  6 Asia      Afghanistan  1977    38.4 14880372      786.
+##  7 Asia      Afghanistan  1982    39.9 12881816      978.
+##  8 Asia      Afghanistan  1987    40.8 13867957      852.
+##  9 Asia      Afghanistan  1992    41.7 16317921      649.
+## 10 Asia      Afghanistan  1997    41.8 22227415      635.
+## # … with 1,694 more rows</code></pre>
 <ol start="5" style="list-style-type: decimal">
 <li>Rename <code>continent</code> to <code>cont</code>.</li>
 </ol>
 <pre class="r"><code># compare
-select(gapminder, FILL_THIS_IN)</code></pre>
-<pre><code>## Error in .f(.x[[i]], ...): object 'FILL_THIS_IN' not found</code></pre>
-<pre class="r"><code>rename(gapminder, FILL_THIS_IN)</code></pre>
-<pre><code>## All arguments must be named</code></pre>
+select(gapminder, continent = cont)</code></pre>
+<pre><code>## Error in .f(.x[[i]], ...): object 'cont' not found</code></pre>
+<pre class="r"><code>rename(gapminder, continent = cont)</code></pre>
+<pre><code>## Error in .f(.x[[i]], ...): object 'cont' not found</code></pre>
 </div>
 <div id="arrange-8-min" class="section level2">
 <h2><code>arrange()</code> (8 min)</h2>
@@ -514,8 +527,21 @@ select(gapminder, FILL_THIS_IN)</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Order by year, in descending order.</li>
 </ol>
-<pre class="r"><code>arrange(gapminder, FILL_THIS_IN)</code></pre>
-<pre><code>## Error: object 'FILL_THIS_IN' not found</code></pre>
+<pre class="r"><code>arrange(gapminder, desc(year))</code></pre>
+<pre><code>## # A tibble: 1,704 x 6
+##    country     continent  year lifeExp       pop gdpPercap
+##    &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;     &lt;int&gt;     &lt;dbl&gt;
+##  1 Afghanistan Asia       2007    43.8  31889923      975.
+##  2 Albania     Europe     2007    76.4   3600523     5937.
+##  3 Algeria     Africa     2007    72.3  33333216     6223.
+##  4 Angola      Africa     2007    42.7  12420476     4797.
+##  5 Argentina   Americas   2007    75.3  40301927    12779.
+##  6 Australia   Oceania    2007    81.2  20434176    34435.
+##  7 Austria     Europe     2007    79.8   8199783    36126.
+##  8 Bahrain     Asia       2007    75.6    708573    29796.
+##  9 Bangladesh  Asia       2007    64.1 150448339     1391.
+## 10 Belgium     Europe     2007    79.4  10392226    33693.
+## # … with 1,694 more rows</code></pre>
 <ol start="3" style="list-style-type: decimal">
 <li>Order by year, then by life expectancy.</li>
 </ol>
@@ -649,13 +675,39 @@ gapminder %&gt;%
 <li>GDP in billions, named (<code>gdpBill</code>), rounded to two decimals.</li>
 </ul>
 <pre class="r"><code>gapminder %&gt;%
-  mutate(FILL_THIS_IN)</code></pre>
-<pre><code>## Error: object 'FILL_THIS_IN' not found</code></pre>
+  mutate(gdpBill=gdpPercap*pop)</code></pre>
+<pre><code>## # A tibble: 1,704 x 7
+##    country     continent  year lifeExp      pop gdpPercap      gdpBill
+##    &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;        &lt;dbl&gt;
+##  1 Afghanistan Asia       1952    28.8  8425333      779.  6567086330.
+##  2 Afghanistan Asia       1957    30.3  9240934      821.  7585448670.
+##  3 Afghanistan Asia       1962    32.0 10267083      853.  8758855797.
+##  4 Afghanistan Asia       1967    34.0 11537966      836.  9648014150.
+##  5 Afghanistan Asia       1972    36.1 13079460      740.  9678553274.
+##  6 Afghanistan Asia       1977    38.4 14880372      786. 11697659231.
+##  7 Afghanistan Asia       1982    39.9 12881816      978. 12598563401.
+##  8 Afghanistan Asia       1987    40.8 13867957      852. 11820990309.
+##  9 Afghanistan Asia       1992    41.7 16317921      649. 10595901589.
+## 10 Afghanistan Asia       1997    41.8 22227415      635. 14121995875.
+## # … with 1,694 more rows</code></pre>
 <p>Notice the backwards compatibility! No need for loops!</p>
 <p>Try the same thing, but with <code>transmute</code> (drops all other variables).</p>
 <pre class="r"><code>gapminder %&gt;%
-  transmute(FILL_THIS_IN)</code></pre>
-<pre><code>## Error: object 'FILL_THIS_IN' not found</code></pre>
+  transmute(gdpBill=gdpPercap*pop)</code></pre>
+<pre><code>## # A tibble: 1,704 x 1
+##         gdpBill
+##           &lt;dbl&gt;
+##  1  6567086330.
+##  2  7585448670.
+##  3  8758855797.
+##  4  9648014150.
+##  5  9678553274.
+##  6 11697659231.
+##  7 12598563401.
+##  8 11820990309.
+##  9 10595901589.
+## 10 14121995875.
+## # … with 1,694 more rows</code></pre>
 <p>The <code>if_else</code> function is useful for changing certain elements in a data frame.</p>
 <p>Example: Suppose Canada’s 1952 life expectancy was mistakenly entered as 68.8 in the data frame, but is actually 70. Fix it using <code>if_else</code> and <code>mutate</code>.</p>
 <pre class="r"><code>gapminder %&gt;%
