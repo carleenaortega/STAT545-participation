@@ -1,0 +1,5 @@
+"0","gapminder %>%"
+"0","  mutate(if_else(lifeExp=68.8,"
+"0","    TRUE))"
+"2","Error in eval(lhs, parent, parent) : object 'gapminder' not found
+"

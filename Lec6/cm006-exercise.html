@@ -711,8 +711,9 @@ gapminder %&gt;%
 <p>The <code>if_else</code> function is useful for changing certain elements in a data frame.</p>
 <p>Example: Suppose Canada’s 1952 life expectancy was mistakenly entered as 68.8 in the data frame, but is actually 70. Fix it using <code>if_else</code> and <code>mutate</code>.</p>
 <pre class="r"><code>gapminder %&gt;%
-  mutate(FILL_THIS_IN)</code></pre>
-<pre><code>## Error: object 'FILL_THIS_IN' not found</code></pre>
+  mutate(if_else(lifeExp=68.8,
+    TRUE))</code></pre>
+<pre><code>## Error in if_else(lifeExp = 68.8, TRUE): unused argument (lifeExp = 68.8)</code></pre>
 <p>Your turn: Make a new column called <code>cc</code> that pastes the country name followed by the continent, separated by a comma. (Hint: use the <code>paste</code> function with the <code>sep=&quot;, &quot;</code> argument).</p>
 <p>These functions we’ve seen are called <strong>vectorized functions</strong>.</p>
 </div>
