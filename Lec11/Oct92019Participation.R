@@ -7,7 +7,7 @@ view(gapminder)
 
 # Calculate mean life Exp per continent
 gapminder_sum <- gapminder %>% 
-  +group_by(continent) %>% 
+  + group_by(continent) %>% 
   + summarize(ave_lifeExp=mean(lifeExp))
 
 
@@ -56,6 +56,7 @@ data_url <- "http://gattonweb.uky.edu/sheather/book/docs/datasets/GreatestGivers
 
 # read_csv can directly import URLs but read_excel requires you to download it first.
 
+read_csv(url)
 download.file(url=data_url, destfile = paste('./datasets/',file_name))
 
 #CLS files may not work on windows
@@ -65,6 +66,27 @@ download.file(url=data_url, destfile = here::here("test","greatestGiver.xls"))
 install.packages("readxl")
 library(readxl)
 philanthropists <-read_excel(here::here)
+
+xls_url <- "http://gattonweb.uky.edu/sheather/book/docs/datasets/GreatestGivers.xls"
+download.file(xls_url,here::here("data","cm011_data","some_file.xls"))
+
+file_name <- basename(xls_url)
+download.file(xls_url,here::here("data","cm011_data",file_name))
+
+read_excel(here::here("data","cm011_data",file_name))
+
+mri_file = here::here("data","cm011_data","Firas-MRI.xlsx")
+mri <- read_excel(mri_file, range = "A1:K12")
+
+mri_file = here::here("data","cm011_data","Firas-MRI.xlsx")
+mri <- read_excel(mri_file, range = "A1:L12")
+
+mri <- mri %>% 
+  tidyr::pivot_longer(cols = `Slice 1`:`Slice 8`,
+    names_to = 'slice_no',
+    values_to = 'value')
+mri
+
 
 
 #assign the imported data to excel file:
