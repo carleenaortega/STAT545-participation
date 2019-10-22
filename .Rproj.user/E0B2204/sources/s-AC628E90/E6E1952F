@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2288649330",
+    "hash" : "0",
     "id" : "E6E1952F",
-    "lastKnownWriteTime" : 1571724884,
-    "last_content_update" : 1571724884130,
+    "lastKnownWriteTime" : 1571726377,
+    "last_content_update" : 1571726377814,
     "path" : "~/Desktop/STAT545-participation/README.md",
     "project_path" : "README.md",
     "properties" : {
-        "cursorPosition" : "21,0",
-        "scrollLine" : "15"
+        "cursorPosition" : "17,157",
+        "scrollLine" : "12"
     },
     "read_only" : false,
     "read_only_alternatives" : [
