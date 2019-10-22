@@ -15,10 +15,10 @@ This repository contains my submissions for **STAT 545A Participation** for Fall
 |:heavy_check_mark:|8 Intro to plotting with ggplot2, Part II| [ggplot2 II](https://carleenaortega.github.io/STAT545-participation/Lec8/cm008-exercise_filled.html)|.rmd|
 |:heavy_check_mark:|9 Tidy Data and Pivoting| [Tidy and Pivot](https://carleenaortega.github.io/STAT545-participation/Lec9/cm009-exercise.html)|.rmd|
 |:heavy_check_mark:|10 Tibble Joins| [Tibble Joins](https://carleenaortega.github.io/STAT545-participation/Lec10/cm010-exercise.html)| .rmd|
-|:heavy_check_mark:|11 File input/output (I/O)| [File Input](https://carleenaortega.github.io/STAT545-participation/Lec11/Oct92019ParticipationRMD.html)| .R, .rmd |
+|:heavy_check_mark:|11 File input/output (I/O)| [File Input](https://carleenaortega.github.io/STAT545-participation/Lec11/Oct92019ParticipationRMD.html)| .R, .rmd, files|
 |:heavy_check_mark:|12 Working with factors in R| [Factors](https://carleenaortega.github.io/STAT545-participation/Lec12/cm012-exercise.html)|.rmd|
 |:heavy_check_mark:|13 Effective Visualizations| [Visualizations](https://carleenaortega.github.io/STAT545-participation/Lec13/cm013.html)|.rmd|
-|:heavy_check_mark|14 The Model-Fitting Paradigm in R| [Model-Fitting](https://carleenaortega.github.io/STAT545-participation/Lec14/cm014-exercise.html)|.rmd|
+|:heavy_check_mark:|14 The Model-Fitting Paradigm in R| [Model-Fitting](https://carleenaortega.github.io/STAT545-participation/Lec14/cm014-exercise.html)|.rmd, files|
 
 
 Class Meeting 14 The Model-Fitting Paradigm in R
